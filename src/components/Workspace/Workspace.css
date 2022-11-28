@@ -1,0 +1,15 @@
+.workspace {
+  display: flex;
+  height: 100%;
+}
+
+.canvas-container {
+  flex: 3;
+  margin: 0em 0.5em 1em 1em;
+}
+
+.ant-tabs,
+.ant-tabs-content,
+.ant-tabs-tabpane {
+  height: 100%;
+}
