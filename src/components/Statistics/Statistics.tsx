@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { RootState } from "../store/store";
+import { RootState } from "../../store/store";
 import { Input, Collapse, Button, Upload, message } from "antd";
 import type { UploadProps } from "antd/es/upload/interface";
 import { ExportOutlined, ImportOutlined } from "@ant-design/icons";

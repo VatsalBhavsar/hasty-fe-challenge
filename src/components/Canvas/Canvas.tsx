@@ -7,8 +7,8 @@ import {
   INVALID_POLYGON_MSG,
 } from "./constants";
 import { useSelector } from "react-redux";
-import { RootState } from "../store/store";
-import { ICoordinates } from "../store/Workspace/Workspace.types";
+import { RootState } from "../../store/store";
+import { ICoordinates } from "../../store/Workspace/Workspace.types";
 import { message } from "antd";
 
 interface ICanvas {

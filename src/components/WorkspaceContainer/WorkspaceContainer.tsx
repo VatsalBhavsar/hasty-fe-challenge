@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { AppDispatch, RootState } from "../store/store";
+import { AppDispatch, RootState } from "../../store/store";
 import { Tabs } from "antd";
 import {
   addTab,
   setActiveTab,
   updateCanvas,
-} from "../store/Workspace/Workspace.actions";
-import { ICanvases, ITab } from "../store/Workspace/Workspace.types";
+} from "../../store/Workspace/Workspace.actions";
+import { ICanvases, ITab } from "../../store/Workspace/Workspace.types";
 import Workspace from "../Workspace/Workspace";
 import { parse, stringify } from "flatted";
 
